@@ -1,0 +1,46 @@
+MINIBOOK MAKER 2.1 — START HERE
+
+1. Open Terminal.
+2. Go to this unzipped folder.
+3. Run:
+
+   xattr -dr com.apple.quarantine .
+   chmod +x "Build MiniBook Maker.command"
+   ./"Build MiniBook Maker.command"
+
+The builder will first run cut-stack and adaptive-punch regression tests.
+If every test passes, it builds and installs:
+
+   ~/Applications/MiniBook Maker 2.app
+
+NEW CUTTING WORKFLOW
+--------------------
+A full cutting batch is 8 Letter sheets / 64 book pages.
+
+Full batch sheet 1:
+FRONT  1 | 17
+       33 | 49
+BACK   18 | 2
+       50 | 34
+
+After printing all 8 sheets Two-Sided / Flip on Long Edge, keep the sheets aligned and cut the stack into quarters:
+Pile A = pages 1–16
+Pile B = pages 17–32
+Pile C = pages 33–48
+Pile D = pages 49–64
+Stack A -> B -> C -> D.
+
+PUNCH GUIDES
+------------
+Adaptive punch guides are ON by default.
+Default ring diameter: 1.00 in
+Target circles: 0.10 in diameter
+Edge inset: 0.375 in
+Upper ring center: 1.50 in from top
+Lower ring center: 4.00 in from top
+
+Use the Binding panel to choose Estimated thickness or enter a Measured finished-stack thickness.
+
+FIRST TEST
+----------
+Use Export -> Export 64-Page Cut-Stack Calibration before printing a full book.

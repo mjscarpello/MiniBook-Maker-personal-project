@@ -1,0 +1,26 @@
+MiniBook Maker 2.1 — Automated Test Summary
+
+PASS: 64-page full batch has exactly 8 physical Letter sheets.
+PASS: Sheet 1 front = 1,17,33,49.
+PASS: Sheet 1 back = 18,2,50,34.
+PASS: Sheet 8 front = 15,31,47,63.
+PASS: Sheet 8 back = 32,16,64,48.
+PASS: Cut pile A = pages 1–16.
+PASS: Cut pile B = pages 17–32.
+PASS: Cut pile C = pages 33–48.
+PASS: Cut pile D = pages 49–64.
+PASS: Batch 2 starts front 65,81,97,113 / back 82,66,114,98.
+PASS: 40-page partial batch uses 5 sheets and piles 1–10 / 11–20 / 21–30 / 31–40.
+PASS: Every page count from 1 through 513 contains each logical page exactly once.
+PASS: Every odd/even logical pair remains on the same physical leaf after long-edge duplex reversal.
+PASS: 200 logical pages = 100 physical leaves.
+PASS: 1-inch ring / 0.004-inch paper caliper geometry validates.
+PASS: First and last leaf spacing are symmetric (~0.918 in).
+PASS: Middle leaf spacing rounds to 1.000 in.
+PASS: Middle target positions are approximately 1.00, 2.00, 3.50, 4.50 inches from the top.
+PASS: Front punch edge is left and back punch edge mirrors to right so duplex targets share physical holes.
+PASS: Ring diameters smaller than the finished stack are rejected.
+PASS: All Swift source files parse successfully with Swift 6.2.1.
+
+Native AppKit/PDFKit compilation must occur on macOS because those frameworks are Apple-platform-only.
+The included Mac builder reruns the pure-Swift regression suite before compiling the native app.
