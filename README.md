@@ -6,6 +6,14 @@ MiniBook Maker is a native macOS application that converts PDF documents into pr
 
 **Version:** 2.1 · **Platform:** macOS 12 or later (declared target) · **Language:** Swift
 
+## Physical output
+
+<table><tr><td width="50%"><img src="assets/photographs/minibook-photo-0540.jpg" alt="Illustrated miniature book cover" width="100%"></td><td width="50%"><img src="assets/photographs/minibook-photo-0548.jpg" alt="Close-up of ring binding" width="100%"><img src="assets/photographs/minibook-photo-0555.jpg" alt="Open book with color figures" width="100%"></td></tr></table>
+
+The original photographs document actual printed and ring-bound examples. They illustrate the physical workflow, not a controlled verification of print accuracy.
+
+[Photograph collection](assets/photographs/README.md) · [Application screenshots](assets/screenshots/README.md) · [Portfolio case study](https://mjscarpello.github.io/Portfolio-Repository/personal/mini-bookmaker.html)
+
 ## Highlights
 
 - Import PDFs, interpret full pages or two-page spreads, and select and arrange the reading order.

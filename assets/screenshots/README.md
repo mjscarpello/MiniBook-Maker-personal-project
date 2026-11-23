@@ -1,3 +1,9 @@
-# Application screenshots
+# Original application screenshots
 
-Add actual screenshots of the import screen, page arrangement, print preview and binding settings here. Use PNG or JPEG and remove any private document content before publishing.
+![Print-imposition preview](minibook-imposition-preview.jpg)
+
+Version 2.1: front/back sheet preview and print layout.
+
+![Page selector](minibook-page-selector.jpg)
+
+Page selection and arrangement. These existing portfolio screenshots document the working prototype; they are not new runtime tests.
